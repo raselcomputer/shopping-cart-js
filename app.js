@@ -25,7 +25,7 @@ function calculateValue(){
     const phoneTotal = getInputValue('phone') * 1219;
     const caseTotal = getInputValue('case') * 59;
     const subtotal = phoneTotal + caseTotal;
-    const tax = subtotal / 5;
+    const tax = subtotal / 10;
     const total = subtotal + tax;
 
     document.getElementById('sub-total').innerText = subtotal;
